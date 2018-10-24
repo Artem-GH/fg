@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Osnova</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="nav">
+    <button class="but">
+      Добавить
+    </button>
+  <div class="d1">
+  <form>
+  <input type="text" placeholder="Искать здесь...">
+  <button type="submit"></button>
+  </form>
+</div>
+    <h3 class="navtext">123456 сделок: 9876543 тг</h3>
+  </div>
+  <div class="content">
+  <div class="wrapper">
+  <table>
+          <td>ЭТАП 1</td>
+          <td>ЭТАП 2</td>
+          <td>ЭТАП 3</td>
+          <td>ЭТАП 4</td>
+          <td>ЭТАП 5</td>
+  </table>
+    <div>
+          <div class="col" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="twraper" draggable="true" ondragstart="drag(event)" id="drag1">
+              <div class="rowLeft">Имя, ТОО Компания</div>
+              <div class="rowRight">10.10.2018</div>
+              <div class="rowLeft">Сделка#9999999</div>
+              <div class="rowRight rowR">задача</div>
+          </div>
+          </div>
+
+          <div class="col" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="twraper" draggable="true" ondragstart="drag(event)" id="drag2">
+            <div class="rowLeft">Имя, ТОО Компания</div>
+            <div class="rowRight">10.10.2018</div>
+            <div class="rowLeft">Сделка#8888888</div>
+            <div class="rowRight rowR">задача</div>
+          </div>
+          </div>
+
+          <div class="col" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="twraper" draggable="true" ondragstart="drag(event)" id="drag3">
+            <div class="rowLeft">Имя, ТОО Компания</div>
+            <div class="rowRight">10.10.2018</div>
+            <div class="rowLeft">Сделка#7777777</div>
+            <div class="rowRight rowR">задача</div>
+          </div>
+          </div>
+
+          <div class="col" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="twraper" draggable="true" ondragstart="drag(event)" id="drag4">
+            <div class="rowLeft">Имя, ТОО Компания</div>
+            <div class="rowRight">10.10.2018</div>
+            <div class="rowLeft">Сделка#6666666</div>
+            <div class="rowRight rowR">задача</div>
+          </div>
+          </div>
+
+          <div class="col" id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div class="twraper" draggable="true" ondragstart="drag(event)" id="drag5">
+            <div class="rowLeft">Имя, ТОО Компания</div>
+            <div class="rowRight">10.10.2018</div>
+            <div class="rowLeft">Сделка#5555555</div>
+            <div class="rowRight rowR">задача</div>
+          </div>
+          </div>
+  </div>
+</div>
+</div>
+  <div class="menu">
+  <ul class="main-menu">
+   <li><a href="profile/index.html"><img src="./image/wiki.png" class="logo"><div class="prof">Профиль</div></a></li>
+   <li><a href="#">Сделки</a></li>
+   <li><a href="#">Задачи</a></li>
+   <li><a href="#">Документы</a></li>
+   <li><a href="#">Списки</a></li>
+   <li><a href="#">Почта</a></li>
+   <li><a href="#">Финансы</a></li>
+   <li><a href="#">Отчеты</a></li>
+   <li><a href="#">Настройки</a></li>
+ </ul>
+</div>
+<script src="ss.js" charset="utf-8"></script>
+</body>
+</html>
